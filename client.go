@@ -15,13 +15,13 @@ import (
 
 var (
 	// WapiVersion specifies the version of the Infoblox REST API to target
-	WapiVersion = "2.5"
+	WapiVersion = "2.0"
 
 	// BasePath specifies the default path prefix to all WAPI actions
 	BasePath = "/wapi/v" + WapiVersion + "/"
 
 	// Debug mode flag
-	Debug = false
+	Debug = true
 )
 
 // Client implements a Infoblox WAPI client.
