@@ -21,7 +21,7 @@ var (
 	BasePath = "/wapi/v" + WapiVersion + "/"
 
 	// Debug mode flag
-	Debug = true
+	Debug = false
 )
 
 // Client implements a Infoblox WAPI client.
